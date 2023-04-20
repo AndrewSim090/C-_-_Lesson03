@@ -7,7 +7,7 @@ int c2 = GetUserNumber("Введите значение z2: ");
 
 
 double result = Math.Sqrt(Math.Pow(a2 - a1, 2) + Math.Pow(b2 - b1, 2) + Math.Pow(a2 - a1, 2));
-Console.WriteLine($"x1 ({a1},{b1},{c1}); y1 ({a2},{b2},{c2}) -> {result:f2}");
+Console.WriteLine($"A ({a1},{b1},{c1}); B ({a2},{b2},{c2}) -> {result:f2}");
 
 static int GetUserNumber(string message)
 {
